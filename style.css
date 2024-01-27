@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+* {
+    font-family: "Sixtyfour", sans-serif;
+}
+
+body {
+    font-family: "Sixtyfour", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.desktop_size {
+    height: 100vh;
+    background: #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover_image {
+
+}
+
+.cover_image img {
+    width: 1000px;
+    height: 500px;
+    padding-bottom: 55px;
+}
+
+.btn {
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    background: #1ccf1c;
+    width: 300px;
+    padding: 10px;
+    border-radius: 35px;
+    border: 1px solid #1ccf1c;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 20px 10px #1ccf1ccb;
+    border: 3px solid #1ccf1c;
+    cursor: pointer;
+}
+
+.desktop {
+    height: 100vh;
+    background: #000000;
+}
+
+.cover {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+
+}
+
+.image {
+
+}
+
+.image img {
+    width: 400px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.form {
+    padding-top: 130px;
+    padding-right: 220px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#guess_number {
+    width: 70px;
+    height: 63px;
+    margin-left: 372px;
+    font-size: 50px;
+    text-align: center;
+    border: #fff;
+    margin-bottom: 50px;
+    align-items: center;
+    color: red;
+}
+
+#guess_number:focus{
+    outline: none;
+}
+
+#number {
+    width: 70px;
+    height: 63px;
+    margin-left: 372px;
+    font-size: 50px;
+    text-align: center;
+    border: #fff;
+    margin-bottom: 50px;
+    align-items: center;
+    color: red;
+}
+
+#enter {
+    width: 245px;
+    padding: 25px 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    background: #1ccf1c;
+    border-radius: 35px;
+    border: 1px solid #1ccf1c;
+    margin-left: 285px;
+    margin-bottom: 50px;
+    
+}
+
+#enter:hover {
+    box-shadow: 0px 0px 10px 5px #1ccf1ccb;
+    border: 3px solid #1ccf1c;
+    cursor: pointer;
+}
+
+#result {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    color: yellow;
+}
+
